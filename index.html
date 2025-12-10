@@ -212,6 +212,7 @@
                 font-size: 11px;
                 border-left: 4px solid #ddd;
                 background-color: #fafafa;
+                gap: 10px;
             }
 
             .pricing-item.current {
@@ -230,6 +231,7 @@
                 font-weight: bold;
                 color: #333;
                 flex: 0 0 70px;
+                min-width: 60px;
             }
 
             .pricing-cost {
@@ -239,15 +241,33 @@
                 color: #1a3a52;
             }
 
+            .price-change {
+                flex: 0 0 auto;
+                text-align: center;
+                font-weight: bold;
+                font-size: 12px;
+                min-width: 50px;
+            }
+
             .price-up {
                 color: #d32f2f;
             }
 
             .price-down {
                 color: #2e7d32;
-                background-color: #e8f5e9;
-                padding: 2px 6px;
-                border-radius: 3px;
+            }
+
+            .new-price-highlight {
+                background-color: #fff9f3;
+                border: 2px solid #ff9800;
+                padding: 6px 12px;
+                border-radius: 6px;
+                font-weight: bold;
+                font-size: 13px;
+                color: #1a3a52;
+                flex: 0 0 auto;
+                min-width: 80px;
+                text-align: center;
             }
 
             /* INSIGHTS SECTION - MOBILE */
@@ -936,17 +956,16 @@
                             </div>
                             <div class="pricing-item scenario3">
                                 <div class="pricing-label">Recommended</div>
-                                <div class="pricing-cost">
-                                    <span class="price-up">↑ $800</span>
-                                </div>
+                                <div class="price-change"><span class="price-up">↑ $200</span></div>
+                                <div class="new-price-highlight">$800</div>
                             </div>
                         </div>
                     </div>
 
                     <div class="family-example">
                         <div class="family-icon">🎓</div>
-                        <h4>Young Adult/Volunteer</h4>
-                        <p class="family-description">Single person, 18-25</p>
+                        <h4>Young Adults (18-25)</h4>
+                        <p class="family-description">Single person attending</p>
                         <div class="pricing-comparison">
                             <div class="pricing-item current">
                                 <div class="pricing-label">Current</div>
@@ -954,9 +973,8 @@
                             </div>
                             <div class="pricing-item scenario3">
                                 <div class="pricing-label">Recommended</div>
-                                <div class="pricing-cost">
-                                    <span class="price-down">↓ $150</span>
-                                </div>
+                                <div class="price-change"><span class="price-down">↓ $75</span></div>
+                                <div class="new-price-highlight">$150</div>
                             </div>
                         </div>
                     </div>
@@ -974,9 +992,8 @@
                             </div>
                             <div class="pricing-item scenario3">
                                 <div class="pricing-label">Recommended</div>
-                                <div class="pricing-cost">
-                                    <span class="price-up">↑ $900</span>
-                                </div>
+                                <div class="price-change"><span class="price-up">↑ $50</span></div>
+                                <div class="new-price-highlight">$900</div>
                             </div>
                         </div>
                     </div>
@@ -994,9 +1011,8 @@
                             </div>
                             <div class="pricing-item scenario3">
                                 <div class="pricing-label">Recommended</div>
-                                <div class="pricing-cost">
-                                    <span class="price-down">↓ $1,050</span>
-                                </div>
+                                <div class="price-change"><span class="price-down">↓ $150</span></div>
+                                <div class="new-price-highlight">$1,050</div>
                             </div>
                         </div>
                     </div>
@@ -1004,12 +1020,7 @@
 
                 <div class="scenarios-insight">
                     <strong>💡 Why This Matters:</strong>
-                    Recommended Strategy strategically targets adult pricing
-                    while keeping families with children MORE affordable. Young
-                    adult volunteers (18-25) see a $100 price drop—critical for
-                    recruitment. Large families pay significantly LESS. This
-                    demonstrates how mission-driven pricing improves both
-                    finances AND accessibility.
+                    The Recommended Strategy strategically targets adult pricing (increasing from $300 to $400) while significantly reducing pricing for younger attendees and children. This creates a more equitable structure: young adults ages 18-25 see a $75 reduction to $150, and children's pricing is consolidated at just $50 per child. Large families with four children become $150 more affordable (from $1,200 to $1,050) compared to current pricing. This mission-driven approach demonstrates how thoughtful pricing can improve both organizational financial health AND family accessibility—addressing the needs of the 47% subsidy burden while maintaining our commitment to affordability.
                 </div>
             </div>
 
